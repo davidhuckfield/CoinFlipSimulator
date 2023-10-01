@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import logo from './coin.gif';
 import './App.css';
 
@@ -6,7 +6,6 @@ function App() {
 
   const [resultsText, setResultsText] = useState([]);
   const [resultsArray, setResultsArray] = useState([]);
-  const [multiplier, setMultiplier] = useState(1);
 
   //inputs are number of coin flips (flips), how many heads or tails in a row needed to bet the opposite (run), and the initial bet (initialBet)
 function coinFlips(flips, run, initialBet, multiplier) {
