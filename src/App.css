@@ -67,6 +67,7 @@ ul {
   overflow: hidden;
   background-color: #fcfbb6;
   border: solid 1px black;
+  width:65%;
 }
 
 li {
